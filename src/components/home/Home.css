@@ -1,0 +1,24 @@
+.home-text{
+    color:black;
+}
+
+.title{
+   font-size:  96px;
+   font-weight: 400;
+   margin: 0px;
+}
+
+.welcome{
+    font-size:  32px;
+    font-weight: 400;
+}
+
+.alert{
+    color: #E24437;
+    font: 14px;
+
+}
+.alerticon{
+    color: #E24437;
+    margin-bottom: -2px;
+}

@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,8 +15,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-content {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,7 +24,19 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header {
+  color: black;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  align-items: right;
 
+  font-size: calc(10px + 2vmin);
+
+}
+.App-header-div{
+  width: 100%;
+}
 .App-link {
   color: #61dafb;
 }
@@ -34,5 +47,49 @@
   }
   to {
     transform: rotate(360deg);
+    
   }
+}
+
+.topnav{
+width: 100%;
+font-size: 20px;
+color: #444444;
+}
+.topnav a {
+  text-align: center;
+  padding: 14px;  
+  float: right;
+}
+
+
+.nav{
+  float: right;
+  margin: 20px;
+} 
+.nav:hover{
+ text-decoration: underline;
+}
+.nav:active{
+color: #000000;
+text-decoration: underline;
+}
+.enabled{
+  color: rgb(10, 144, 233);
+}
+.enabled:active {
+  color: rgb(10, 144, 233);
+  text-decoration: underline;
+}
+
+.logintitle{
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: -20px;
+  
+}
+.submitBtn{
+  font-size: 20px;
+  color: #444444;
+  font-weight: 400;
 }

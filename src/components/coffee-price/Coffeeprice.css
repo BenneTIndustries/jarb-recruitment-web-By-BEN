@@ -1,0 +1,50 @@
+.home-text{
+    color:black;
+}
+
+.home-text-icon {
+    height: 100px;
+    width: 100px;
+       background-image: url(../../asset/icons/coffee_mug.svg);
+       background-size: 70px 70px;
+       background-position: top;
+       background-repeat: no-repeat;
+       background-size: cover;
+  }
+
+.coffeeName{
+text-align: left;
+font-size: 20px;
+} 
+.coffeePrice{
+    text-align: right;
+    font-size: 20px;
+}
+.coffeebox{
+    width: 500px;
+}
+.coffeeHeader{
+    font-size: 64px;
+}
+.Coffeetitle{
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom:-20px ;
+}
+.submitBtn{
+    font-size: 20px;
+    color: #444444;
+    font-weight: 400;
+}
+.alert{
+    color: #E24437;
+    font: 14px;
+
+}
+.alerticon{
+    color: #E24437;
+    margin-bottom: -2px;
+}
+.coffeeImg{
+    margin-right:33px;
+}
